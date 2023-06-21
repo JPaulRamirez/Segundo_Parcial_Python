@@ -2,6 +2,7 @@ import pygame
 from Constantes import *
 from Boton import Boton
 from Cargar_imagen import CargarImagen
+from Texto import Texto
 #------------------------------------------------------------------------------------------
 #                           MENU
 class IntroMenu(CargarImagen):
@@ -12,6 +13,7 @@ class IntroMenu(CargarImagen):
         self.puntuaciones_boton = Boton(pantalla, pygame.Rect(300, 270, 200, 50), "Puntajes", COLOR_AZUL_OSCURO, COLOR_NEGRO, TIPO_GRAFIA, 36)
         self.salir_boton = Boton(pantalla, pygame.Rect(300, 340, 200, 50), "Salir", COLOR_AZUL_OSCURO, COLOR_NEGRO, TIPO_GRAFIA, 36)
         self.estado = "menu"
+        self.titulo = Texto(pantalla,TIPO_GRAFIA,50)
         #self.sonido_fondo = pygame.mixer.Sound(SONIDO_FONDO)
         #self.sonido_fondo.set_volume(0.3)
 #------------------------------------------------------------------------------------------
@@ -34,6 +36,7 @@ class IntroMenu(CargarImagen):
         #self.pantalla.fill(COLOR_CELESTE)
         #self.sonido_fondo.play() 
         self.dibujar_imagen(self.pantalla,COLOR_NEGRO)
+        self.titulo.renderizar_texto("THE LOST DRIVER", COLOR_NEGRO, 400, 100)
         self.empezar_boton.dibujar_boton()
         self.puntuaciones_boton.dibujar_boton()
         self.salir_boton.dibujar_boton()

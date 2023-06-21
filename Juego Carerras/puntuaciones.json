@@ -1,56 +1,12 @@
 {
     "puntajes": [
         {
+            "nombre": "ddd",
+            "puntos": 65
+        },
+        {
             "nombre": "Paul",
-            "puntos": 730
-        },
-        {
-            "nombre": "dasdasdasdada",
-            "puntos": 130
-        },
-        {
-            "nombre": "ff",
-            "puntos": 120
-        },
-        {
-            "nombre": "dsadas",
-            "puntos": 70
-        },
-        {
-            "nombre": "dda",
             "puntos": 60
-        },
-        {
-            "nombre": "dsadas",
-            "puntos": 35
-        },
-        {
-            "nombre": "dd",
-            "puntos": 20
-        },
-        {
-            "nombre": "d",
-            "puntos": 0
-        },
-        {
-            "nombre": "das",
-            "puntos": 0
-        },
-        {
-            "nombre": "a",
-            "puntos": 0
-        },
-        {
-            "nombre": "a",
-            "puntos": 0
-        },
-        {
-            "nombre": "LL",
-            "puntos": -25
-        },
-        {
-            "nombre": "DASDAS",
-            "puntos": -95
         }
     ]
 }

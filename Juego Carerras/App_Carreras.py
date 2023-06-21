@@ -92,7 +92,6 @@ class AppJuegoDeCarreras:
                 self.verificar_colision()
                 self.game_over()
             if TIEMPO_GENERAR_ELEMENTOS > pygame.time.get_ticks():
-                print(pygame.time.get_ticks())
                 self.texto.renderizar_texto("CONTROLOES: W A D S", COLOR_NEGRO, 400, 300) # ↑ ← ↓ →
             self.texto.renderizar_texto(f"VIDA: {self.jugador.vida}", COLOR_ROJO, 50, 50)
             self.texto.renderizar_texto(f"PUNTOS: {self.jugador.puntos}", COLOR_AZUL, 75, 80)
