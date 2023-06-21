@@ -10,7 +10,7 @@ from Texto import Texto
 from Sqlite import ConexionDB
 #---------------------------------------------------------------
 #                  INICIAR JUEGO
-
+#
 class AppJuegoDeCarreras:
     def __init__(self, pantalla):
         self.estado_juego = "jugando"
